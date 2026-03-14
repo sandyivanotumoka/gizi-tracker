@@ -86,7 +86,7 @@ src
 Clone repository:
 
 ```
-git clone https://github.com/USERNAME/gizi-tracker.git
+git clone https://github.com/sandyivanotummoka/gizi-tracker.git
 ```
 
 Masuk ke folder project:
@@ -133,7 +133,7 @@ Fitur yang akan ditambahkan:
 
 # 👨‍💻 Author
 
-Developed by **Your Name**
+Developed by **Sandy Ivano**
 
 ---
 
