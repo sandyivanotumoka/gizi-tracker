@@ -1,5 +1,142 @@
-# Vue 3 + TypeScript + Vite
+# 🥗 GiziTracker
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+GiziTracker adalah aplikasi web untuk membantu pengguna memantau **konsumsi air, jadwal makan, dan perkembangan berat badan** selama program nutrisi.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Aplikasi ini dibuat menggunakan **Vue 3 + TypeScript** dengan UI modern berbasis **TailwindCSS**.
+
+---
+
+# 🚀 Features
+
+## 🔐 Authentication
+
+* Login Page
+* Register Page
+
+## 📊 Dashboard
+
+* User card
+* Program progress 30 hari
+* Meal schedule berdasarkan hari
+
+## 💧 Water Tracker
+
+* Tambah konsumsi air (+250ml, +500ml)
+* Undo air (-250ml)
+* Progress bar dinamis
+* Warna progress berubah sesuai persentase
+* Alert ketika target air tercapai (2000 ml)
+* Reset otomatis setiap hari
+
+## ⚖️ Weight Tracker
+
+* Weight chart menggunakan Chart.js
+* Visualisasi perkembangan berat badan
+
+---
+
+# 🛠 Tech Stack
+
+Frontend framework:
+
+* Vue 3
+* TypeScript
+
+UI & Styling:
+
+* TailwindCSS
+
+Libraries:
+
+* SweetAlert2
+* Chart.js
+* Vue Router
+
+---
+
+# 📁 Project Structure
+
+```
+src
+│
+├─ components
+│   ├─ NavbarDashboard.vue
+│   ├─ UserCard.vue
+│   ├─ ProgressCard.vue
+│   ├─ WeightCard.vue
+│   ├─ MealScheduleCard.vue
+│   ├─ WaterScheduleCard.vue
+│   └─ WeightChart.vue
+│
+├─ pages
+│   ├─ LoginPage.vue
+│   ├─ RegisterPage.vue
+│   └─ DashboardUser.vue
+│
+├─ router
+│   └─ index.ts
+│
+└─ main.ts
+```
+
+---
+
+# ⚙️ Installation
+
+Clone repository:
+
+```
+git clone https://github.com/USERNAME/gizi-tracker.git
+```
+
+Masuk ke folder project:
+
+```
+cd gizi-tracker
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Jalankan project:
+
+```
+npm run dev
+```
+
+Project akan berjalan di:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📌 Roadmap
+
+Fitur yang akan ditambahkan:
+
+* Water intake history
+* Weekly hydration chart
+* Meal database
+* Nutrition statistics
+* Backend API integration
+* Authentication system dengan database
+
+---
+
+
+
+
+# 👨‍💻 Author
+
+Developed by **Your Name**
+
+---
+
+# 📄 License
+
+This project is open source and available under the MIT License.
